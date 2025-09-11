@@ -1,0 +1,15 @@
+body {
+    background-color: sienna;
+    background-color: #b100c3;
+    background-color: rgba(210, 115, 74, 0.5);
+}
+h1 {
+    font-family: sans-serif;
+}
+h2 {
+    font-family: monospace;
+}
+p {
+    font-family: cursive;
+}
+/* https://www.tutorialbrain.com/css_tutorial/css_font_family_list/ */
