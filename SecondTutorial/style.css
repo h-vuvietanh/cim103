@@ -5,11 +5,19 @@ body {
 }
 h1 {
     font-family: sans-serif;
+    text-transform: uppercase;
 }
 h2 {
     font-family: monospace;
+    text-align: center;
 }
 p {
     font-family: cursive;
+}
+ul{
+    list-style: armenian;
+}
+ul li {
+    color: blue;
 }
 /* https://www.tutorialbrain.com/css_tutorial/css_font_family_list/ */
