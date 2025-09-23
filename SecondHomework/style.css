@@ -1,22 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+html{
+    scroll-behavior: smooth !important;
+}
 body {
-    background-color: sienna;
-    background-color: #b100c3;
-    background-color: rgba(210, 115, 74, 0.5);
+    font-family: "Rubik", sans-serif;
+    background-color: peachpuff;
     box-sizing: border-box;
 }
 
 header {
+    position: sticky;
+    top: 0px;
     width: 960px;
-    padding-left: 20px;
-    padding-top: 30px;
-    padding-right: 20px;
-    padding-bottom: 50px;
+    padding: 5px 20px;
     background-color: palegoldenrod;
     border: dashed 5px orange;
     margin-bottom: -5px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0;
     /* margin: 0px auto */
     /* margin: 0px */
     /* 1 => All. 2 => T&B then L&R. 3 => T then L&R then B. 4 => TRBL (clockwise) */
@@ -35,62 +37,46 @@ footer{
     width: 960px;
     padding: 20px;
     background-color: paleturquoise;
-    height: 240px;
+    height: 90px;
     border: dashed 5px orange;
     margin-left: auto;
     margin-right: auto;
 }
 
 h1 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
+    font-weight: 700;
     text-transform: uppercase;
-}
-h2 {
-    font-family: monospace;
+    width: inherit;
     text-align: center;
 }
-p {
-    font-family: cursive;
+h2 {
+    text-align: center;
 }
+
 ul{
-    list-style: armenian;
+    list-style: disc;
 }
-ul li {
-    color: blue;
-}
+
 li {
     text-decoration: underline;
 }
 
 a {
     text-decoration: none;
+    color: black;
 }
 a:hover{
-    color: green;
+    color: darkgreen;
 }
 /* https://www.tutorialbrain.com/css_tutorial/css_font_family_list/ */
 img {
     border: solid 3px black;
-    width: 300px;
-}
-
-#sample {
-    border: solid 3px yellow;
-}
-
-.getGreen{
-    color: green;
-}
-
-.grayBack{
-    background-color: pink;
+    height: 200px;
 }
 
 nav{
     width: max-content;
     margin: 0px auto;
-    border-bottom: black 1px solid;
 }
 
 nav ul{
@@ -103,15 +89,40 @@ nav ul li{
     border: 1px solid black;
     padding: 0px;
     text-decoration: none;
+    padding: 5px;
     width: 200px;
     text-align: center;
 }
 
+nav ul li:hover{
+    background-color: aliceblue;
+    scale: 1.05;
+}
+
 nav ul li a{
-    font-family: "Roboto", sans-serif;
     font-weight: 300;
 }
 
 nav ul li a:hover{
-    background-color: aliceblue
+    font-weight: 500;
+}
+
+figure{
+    display: inline;
+}
+
+.overview, .smallPara, .tinyPara{
+    text-align: justify;
+}
+
+.overview{
+    font-size: 18px;
+}
+
+.smallPara{
+    font-size: 17px;
+}
+
+.tinyPara{
+    font-size: 15px;
 }
